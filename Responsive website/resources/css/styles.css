@@ -1,0 +1,151 @@
+@font-face {
+    font-family: 'Gentium plus latin';
+    src: url(../fonts/gentium-plus-v1-latin-italic.eot) format('eot'),
+    url(../fonts/gentium-plus-v1-latin-italic.ttf) format('ttf'),
+    url(../fonts/gentium-plus-v1-latin-italic.woff) format('woff'),
+    url(../fonts/gentium-plus-v1-latin-italic.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'Gentium plus regular';
+    src: url(../fonts/gentium-plus-v1-latin-regular.eot) format('eot'),
+    url(../fonts/gentium-plus-v1-latin-regular.ttf) format('ttf'),
+    url(../fonts/gentium-plus-v1-latin-regular.woff) format('woff'),
+    url(../fonts/gentium-plus-v1-latin-regular.woff2) format('woff2');
+}
+
+* {
+    font-family: 'Gentium plus regular', Arial, Helvetica, sans-serif;
+    font-size: 1.125rem;
+}
+
+h1 {
+    font-family: 'Gentium plus latin', Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    color:rgb(255, 0, 208)
+}
+
+h2 {
+    font-family: 'gentium-plus-v1-latin-italic', Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+    color:rgb(47, 255, 0)
+}
+
+footer h3 {
+    color: beige;
+}
+
+.navbar {
+    list-style-type: none;
+    
+}
+
+.navbar li {
+    float: left;
+    
+}
+
+.navbar a {
+    padding: 5px;
+    color:rgba(247, 158, 173, 0.929);
+    font-size: 1.5rem;
+}
+
+.navbar a:hover {
+    cursor: pointer;
+    background-color: rgba(247, 158, 173, 0.929);
+}
+
+
+.container {
+    display: flex;
+    border: 1px solid black;
+    position: relative;
+}
+
+#pic {
+    background-image: url(../images/jeremy-bishop-G9i_plbfDgk-unsplash.jpg);
+    background-size: cover;
+}
+
+.program {
+    flex: 33.33%;
+    padding: 5px;
+}
+
+.row {
+    display: flex;
+    background-color: rgba(237, 161, 20, 0.562);
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+
+  .column p {
+    font-size: 2rem;
+  }
+
+  #mixer {
+    height: 50%;
+  }
+
+  #button {
+    border: 1px solid pink;
+    border-radius: 5px 5px 5px 5px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 5px 5px;
+    width: 15%;
+    text-align: center;
+    margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+    
+  }
+
+  #button:hover {
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+  }
+
+  .program {
+    text-align: center;
+  }
+
+  #location {
+    background-image: url(../images/steve-harvey-mu2xoJHgNYA-unsplash.jpg);
+    background-size: cover;
+  }
+
+  .locations {
+    display: flex;
+    flex: 33.33%;
+    padding: 5px;
+    flex-direction: column;
+
+  }
+
+  .locations p {
+    text-align: center;
+    color: aquamarine;
+  }
+
+  #join-us {
+    background-color: pink;
+    background-size: cover;
+  }
+
+  @media only screen and (max-width:480px) {
+    img {
+        visibility: collapse;
+    }
+  }
+
+  #contact {
+    background-color: aqua;
+  }
